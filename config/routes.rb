@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  comfy_route :cms_admin, path: "/admin"
+  comfy_route :cms_admin, path: '/admin'
   # Ensure that this route is defined last
-  comfy_route :cms, path: "/:locale/"
+  comfy_route :cms, path: '/:locale/'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

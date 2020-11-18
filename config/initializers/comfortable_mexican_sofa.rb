@@ -48,11 +48,11 @@ ComfortableMexicanSofa.configure do |config|
 
   # Locale definitions. If you want to define your own locale merge
   # {:locale => 'Locale Title'} with this.
-    config.locales = {:en => 'English', :es => 'Español'}
+  config.locales = { en: 'English', es: 'Español' }
 
   # Admin interface will respect the locale of the site being managed. However you can
   # force it to English by setting this to `:en`
-    config.admin_locale = nil
+  config.admin_locale = nil
 
   # A class that is included as a sweeper to admin base controller if it's set
   #   config.admin_cache_sweeper = nil
@@ -90,8 +90,8 @@ end
 
 # Default credentials for ComfortableMexicanSofa::AccessControl::AdminAuthentication
 # YOU REALLY WANT TO CHANGE THIS BEFORE PUTTING YOUR SITE LIVE
-ComfortableMexicanSofa::AccessControl::AdminAuthentication.username = "username"
-ComfortableMexicanSofa::AccessControl::AdminAuthentication.password = "password"
+ComfortableMexicanSofa::AccessControl::AdminAuthentication.username = 'username'
+ComfortableMexicanSofa::AccessControl::AdminAuthentication.password = 'password'
 
 # Uncomment this module and `config.admin_auth` above to use custom admin authentication
 # module ComfyAdminAuthentication
